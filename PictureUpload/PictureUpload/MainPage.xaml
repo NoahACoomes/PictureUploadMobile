@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PictureUpload"
+             x:Class="PictureUpload.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Button x:Name="takePic"
+                Pressed="TakePic_Pressed"/>
+        <Image x:Name="imgCurrentPic"
+               Scale="50"></Image>
+        <Button x:Name="btnSendPic"
+                Pressed="BtnSendPic_Pressed"/>
+    </StackLayout>
+
+</ContentPage>
